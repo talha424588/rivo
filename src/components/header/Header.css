@@ -1,4 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap');
 *
 {
-    background: #C2EFD4;
+    background: #8fdfa6;
+}
+.header
+{
+    padding: 15px 14%;
+    margin-top: 40px;
+}
+
+.content-section
+{
+    width: 50%;
+}
+.content-section h1
+{
+    font-family: 'Rufina', sans-serif;
+    font-weight: bold;
+    font-size: 73px;
+    margin-bottom: 20px;
+    color: #224F34;
+}
+.content-section p
+{
+    color: #224F34;
+    font-size: 24px;
+    font-family: 'poppins';
+    line-height: 20px;;
 }
