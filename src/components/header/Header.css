@@ -67,4 +67,37 @@
     background: #6BC785;
     border: none;
     outline: none;
+    border-top-left-radius: 8rem;
+    border-bottom-right-radius: 8rem;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    position: relative;
+
+}
+.image-section img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: inherit;
+    background: none;
+}
+
+.image-section::before,
+.image-section::after {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: #267144; 
+    border-radius: 50%;
+}
+
+.image-section::before {
+    top: 10px;
+    right: 10px; 
+}
+
+.image-section::after {
+    bottom: 10px;
+    left: 10px; 
 }

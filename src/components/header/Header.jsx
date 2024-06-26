@@ -16,6 +16,7 @@ function Header() {
             <button>Explore Now</button>
           </div>
           <div className="image-section">
+            <img src={header_image} alt="" />
           </div>
         </div>
       </div>
